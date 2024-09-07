@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid 2px red; */
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  /* padding: 10px; */
+
+}
+
+input {
+  border-radius: 5px;
+  width: 250px;
+}
+
+img {
+  max-height: 100vh;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  width: auto;
+  align-self: start;
+  padding: 10px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.right {
+  background-color: yellow;
+  flex: 1;
+  padding: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.submitText {
+  width: auto;
+}
+
+.input {
+}
+
+.inputRow {
+  display: flex;
+}
+
+.inputCol {
+  flex: 1;
+}

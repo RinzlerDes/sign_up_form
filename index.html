@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkey Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="left">
+      <img src="turkey.jpg" alt="Turkey">
+    </div>
+
+    <div class="right">
+      <form action="">
+        <div class="inputRow">
+          <div class="inputCol">
+            <p>First Name</p>
+            <input type="text" name="firstName">
+          </div>
+          <div class="inputCol">
+            <p>Last Name</p>
+            <input type="text" name="lastName">
+          </div>
+        </div>
+        <div class="inputRow">
+          <div class="inputCol">
+            <p>Email</p>
+            <input type="email" name="email">
+          </div>
+          <div class="inputCol">
+            <p>Phone Number<br> Format: 012-345-6789</p>
+            <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+          </div>
+        </div>
+        <div class="inputRow">
+          <div class="inputCol">
+            <p>Password</p>
+            <input type="password" name="pass1">
+          </div>
+          <div class="inputCol">
+            <p>Confirm Password</p>
+            <input type="password" name="pass2">
+          </div>
+        </div>
+        <button type="submit"><span class="submitText">Submit Sign Up</span></button>
+      </form>
+    </div>
+
+  </body>
+</html>
